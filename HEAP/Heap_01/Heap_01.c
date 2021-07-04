@@ -86,6 +86,7 @@ void print_sorted_value(HeapType heap) // delete_max_heap 을 이용한다
 
 	for (i = heap.heap_size; i > 0; i--)
 		printf("%d ", delete_max_heap(&heap).key);
+
 	printf("\n");
 }
 
@@ -169,6 +170,7 @@ int main(void)
 			printf("%d 는 없음\n", key);
 		else
 			printf("%d 은 [%d]에 있음\n", key, index);
+
 		printf("찾을 key 입력(-1 for exit):");
 		scanf("%d", &key);
 	}
