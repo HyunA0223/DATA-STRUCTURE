@@ -64,7 +64,6 @@ void write_graph(GraphType* g, char* filename)
 		}
 	}
 
-	// ÄÚµå »ðÀÔ
 	fprintf(fp, "%d\n", g->n);
 	for (i = 0; i < g->n; i++) {
 		for (j = i; j < g->n; j++) {

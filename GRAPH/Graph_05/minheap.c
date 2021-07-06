@@ -18,6 +18,7 @@ int is_empty(HeapType* h)
     else
         return FALSE;
 }
+
 // 삽입 함수
 void insert_min_heap(HeapType* h, element item)
 {
@@ -31,6 +32,7 @@ void insert_min_heap(HeapType* h, element item)
     }
     h->heap[i] = item;     // 새로운 노드를 삽입
 }
+
 // 삭제 함수
 element delete_min_heap(HeapType* h)
 {

@@ -26,6 +26,7 @@ int set_find(int vertex)
 		parent[i] = s;	// 집합의 모든 원소들의 부모를 p로 설정
 	return s;
 }
+
 // 두개의 원소가 속한 집합을 합친다.
 void set_union(int s1, int s2)
 {
